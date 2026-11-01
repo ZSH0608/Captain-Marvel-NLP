@@ -1,0 +1,29 @@
+# MomentJump 默认配置
+
+asr:
+  model_size: medium        # tiny/base/small/medium/large-v3
+  language: zh
+  device: auto              # auto / cpu / cuda
+  compute_type: int8
+
+chunking:
+  strategy: pause_punctuation   # 讲解型主策略；消融对比用 fixed / sliding
+  min_sec: 10.0
+  max_sec: 20.0
+  fixed_window_sec: 15.0
+  sliding_window_sec: 15.0
+  sliding_step_sec: 7.5
+
+embedding:
+  model_name: BAAI/bge-m3      # 或 BAAI/bge-base-zh-v1.5（中文）
+
+rerank:
+  model_name: BAAI/bge-reranker-base
+
+retrieval:
+  top_k: 5
+  rrf_k: 60
+
+eval:
+  delta: 10.0                  # 命中时间窗（秒），与 chunk 长度对齐
+  iou_thresh: 0.3

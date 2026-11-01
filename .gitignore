@@ -1,0 +1,42 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ---- 数据 / 大文件（视频、音频、模型、向量缓存不入库）----
+momentjump/data/raw_videos/*
+momentjump/data/transcripts/*
+momentjump/data/subtitles/*
+momentjump/data/events/*
+!momentjump/data/raw_videos/.gitkeep
+!momentjump/data/transcripts/.gitkeep
+!momentjump/data/subtitles/.gitkeep
+!momentjump/data/events/.gitkeep
+
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.wav
+*.mp3
+*.npy
+*.pt
+*.pth
+*.bin
+*.safetensors
+models/
+hf-cache/
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+*.log
+
+# ---- 临时输出 ----
+momentjump/outputs/

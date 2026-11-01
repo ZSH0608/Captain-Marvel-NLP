@@ -1,0 +1,24 @@
+# MomentJump 依赖清单（Python 3.10+）
+
+# ---- 必装（核心检索与评测，无重模型依赖）----
+numpy
+rank_bm25
+jieba                  # BM25 中文分词（可选，缺省自动回退正则切分）
+
+# ---- 向量编码 + 重排（需联网下载预训练权重）----
+sentence-transformers  # BGE-M3 / bge-base-zh / bge-reranker-base
+
+# ---- ASR（离线 Ingest，需下载 Whisper 模型）----
+faster-whisper
+
+# ---- 服务与 UI ----
+fastapi
+uvicorn
+streamlit
+
+# ---- 测试 ----
+pytest
+
+# ---- 可选（规模变大时再启用）----
+# faiss-cpu            # 大库加速；当前小规模用 numpy 暴力检索即可
+# pysrt                # 可选字幕解析；已自写 src/ingest/srt_parse.py
