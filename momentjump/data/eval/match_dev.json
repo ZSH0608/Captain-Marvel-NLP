@@ -1,0 +1,242 @@
+[
+  {
+    "query_id": "match_dev_001",
+    "query": "比赛第一分就打出多拍、双方适应节奏的那一段",
+    "video_id": "match_badminton_01",
+    "gold_start": 44.34,
+    "gold_end": 49.46,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_002",
+    "query": "双方打高远球后球出了边线的地方",
+    "video_id": "match_badminton_01",
+    "gold_start": 121.69,
+    "gold_end": 131.0,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_003",
+    "query": "黄雅琼判断球在界内并挑战成功的地方",
+    "video_id": "match_badminton_01",
+    "gold_start": 201.67,
+    "gold_end": 216.42,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_004",
+    "query": "解说报出中国组合开局先四比一、随后五比一的地方",
+    "video_id": "match_badminton_01",
+    "gold_start": 218.71,
+    "gold_end": 221.0,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_005",
+    "query": "黄雅琼在网前封网、下一拍衔接及时的地方",
+    "video_id": "match_badminton_01",
+    "gold_start": 241.12,
+    "gold_end": 244.36,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_006",
+    "query": "两位搭档在中路配合有些乱并出现失误的那段",
+    "video_id": "match_badminton_01",
+    "gold_start": 262.5,
+    "gold_end": 270.5,
+    "query_type": "paraphrase"
+  },
+  {
+    "query_id": "match_dev_007",
+    "query": "蔡侑玎在网前封网抓住郑思维的地方",
+    "video_id": "match_badminton_01",
+    "gold_start": 297.18,
+    "gold_end": 300.46,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_008",
+    "query": "解说分析组合提前判断来球、掌握比赛节奏的地方",
+    "video_id": "match_badminton_01",
+    "gold_start": 374.23,
+    "gold_end": 386.11,
+    "query_type": "hard"
+  },
+  {
+    "query_id": "match_dev_009",
+    "query": "中国组合跟进慢了些、韩国队连续追分的那段解说",
+    "video_id": "match_badminton_01",
+    "gold_start": 493.98,
+    "gold_end": 509.98,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_010",
+    "query": "连续下压并打出三拍连贯进攻的那一段",
+    "video_id": "match_badminton_01",
+    "gold_start": 523.98,
+    "gold_end": 542.73,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_011",
+    "query": "解说夸郑思维原地蹬跳和快速起跳能力的地方",
+    "video_id": "match_badminton_01",
+    "gold_start": 561.27,
+    "gold_end": 583.75,
+    "query_type": "paraphrase"
+  },
+  {
+    "query_id": "match_dev_012",
+    "query": "第一局中国组合十一比七进入间歇的地方",
+    "video_id": "match_badminton_01",
+    "gold_start": 583.75,
+    "gold_end": 588.75,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_013",
+    "query": "解说说想抓后场、随后球出了边线的那一段",
+    "video_id": "match_badminton_01",
+    "gold_start": 636.19,
+    "gold_end": 656.64,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_014",
+    "query": "黄雅琼发球后的回合，郑思维杀对角再跟进直线的地方",
+    "video_id": "match_badminton_01",
+    "gold_start": 725.58,
+    "gold_end": 739.9,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_015",
+    "query": "第一局郑思维黄雅琼十三比十领先三分的地方",
+    "video_id": "match_badminton_01",
+    "gold_start": 775.39,
+    "gold_end": 778.39,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_016",
+    "query": "比赛开场偷发后场、谢影雪在前场抢得主动的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 249.62,
+    "gold_end": 262.41,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_017",
+    "query": "英格兰男女选手连续网前失误，中国香港组合开局连得三分的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 275.55,
+    "gold_end": 314.18,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_018",
+    "query": "中国香港组合开局连得三分后，解说提到杀追身的那一球",
+    "video_id": "match_badminton_02",
+    "gold_start": 314.18,
+    "gold_end": 316.18,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_019",
+    "query": "谢影雪做假动作晃到史密斯，解说提到三十二拍的那段",
+    "video_id": "match_badminton_02",
+    "gold_start": 408.77,
+    "gold_end": 464.55,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_020",
+    "query": "第一局中国香港组合七比一领先六分的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 464.55,
+    "gold_end": 468.47,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_021",
+    "query": "埃里斯追求贴网回球却出现失误的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 473.71,
+    "gold_end": 485.32,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_022",
+    "query": "第一局开场阶段出现二十五拍、双方相持能力不错的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 525.46,
+    "gold_end": 547.87,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_023",
+    "query": "邓俊文在腰间用反手把球救回来的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 572.3,
+    "gold_end": 583.96,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_024",
+    "query": "史密斯发球偷后场被邓俊文抓住的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 584.96,
+    "gold_end": 611.75,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_025",
+    "query": "第一局间歇后邓俊文发球失误、比分变成四比十一的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 688.09,
+    "gold_end": 696.87,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_026",
+    "query": "邓俊文轻吊让对手回球不到位、谢影雪跟着在网前抢的回合",
+    "video_id": "match_badminton_02",
+    "gold_start": 710.8,
+    "gold_end": 733.3,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_027",
+    "query": "谢影雪和邓俊文球拍撞到一起、比分来到五比十三的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 762.39,
+    "gold_end": 786.64,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_028",
+    "query": "连续下压后改吊，随后解说确认球出界的那一段",
+    "video_id": "match_badminton_02",
+    "gold_start": 791.95,
+    "gold_end": 812.93,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_dev_029",
+    "query": "反手尝试回对角但没有成功的那一球",
+    "video_id": "match_badminton_02",
+    "gold_start": 852.78,
+    "gold_end": 864.9,
+    "query_type": "paraphrase"
+  },
+  {
+    "query_id": "match_dev_030",
+    "query": "谢影雪接发球在网前抢出机会，给队友创造进攻的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 882.58,
+    "gold_end": 898.78,
+    "query_type": "event"
+  }
+]

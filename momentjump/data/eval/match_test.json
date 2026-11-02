@@ -1,0 +1,242 @@
+[
+  {
+    "query_id": "match_test_001",
+    "query": "反拍直接下压，随后解说谈到两人轮转配合的地方",
+    "video_id": "match_badminton_01",
+    "gold_start": 785.62,
+    "gold_end": 804.06,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_002",
+    "query": "徐承宰杀球较轻，让防守方不好借力反击的多拍回合",
+    "video_id": "match_badminton_01",
+    "gold_start": 809.49,
+    "gold_end": 832.93,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_003",
+    "query": "蔡侑玎回球打到拍框的那一段",
+    "video_id": "match_badminton_01",
+    "gold_start": 832.93,
+    "gold_end": 858.06,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_004",
+    "query": "韩国组合想靠发高球打开局面却反复被抓住的分析",
+    "video_id": "match_badminton_01",
+    "gold_start": 860.06,
+    "gold_end": 871.02,
+    "query_type": "hard"
+  },
+  {
+    "query_id": "match_test_005",
+    "query": "第一拍杀追身、第二拍下压劈杀的回合",
+    "video_id": "match_badminton_01",
+    "gold_start": 907.3,
+    "gold_end": 910.66,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_006",
+    "query": "第一局中国组合十八比十二领先六分的地方",
+    "video_id": "match_badminton_01",
+    "gold_start": 983.98,
+    "gold_end": 990.08,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_007",
+    "query": "黄雅琼用网前轻处理让对手起球、为搭档创造后场进攻条件的分析",
+    "video_id": "match_badminton_01",
+    "gold_start": 1052.98,
+    "gold_end": 1079.82,
+    "query_type": "hard"
+  },
+  {
+    "query_id": "match_test_008",
+    "query": "郑思维黄雅琼以二十一比十四拿下第一局的地方",
+    "video_id": "match_badminton_01",
+    "gold_start": 1098.41,
+    "gold_end": 1107.37,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_009",
+    "query": "第二局第一分出现追身进攻、黄雅琼连贯不给对手机会的那段",
+    "video_id": "match_badminton_01",
+    "gold_start": 1138.38,
+    "gold_end": 1158.34,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_010",
+    "query": "第二局中国组合开局五比零领先的地方",
+    "video_id": "match_badminton_01",
+    "gold_start": 1288.42,
+    "gold_end": 1302.86,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_011",
+    "query": "郑思维失误后韩国组合拿到第二局第一分的地方",
+    "video_id": "match_badminton_01",
+    "gold_start": 1331.68,
+    "gold_end": 1359.98,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_012",
+    "query": "郑思维挑战判罚，结果显示界外一点点并挑战成功的地方",
+    "video_id": "match_badminton_01",
+    "gold_start": 1402.1,
+    "gold_end": 1413.36,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_013",
+    "query": "教练肯定发球表现，又提醒队员注意接发球的那段解说",
+    "video_id": "match_badminton_01",
+    "gold_start": 1529.5,
+    "gold_end": 1549.21,
+    "query_type": "paraphrase"
+  },
+  {
+    "query_id": "match_test_014",
+    "query": "尝试勾对角线、解说评价线路和想法不错的那一段",
+    "video_id": "match_badminton_01",
+    "gold_start": 1606.38,
+    "gold_end": 1618.5,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_015",
+    "query": "郑思维接发球后韩国组合失误，中国组合二比零获胜的地方",
+    "video_id": "match_badminton_01",
+    "gold_start": 1968.25,
+    "gold_end": 1987.52,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_016",
+    "query": "解说通过慢镜头夸中国香港组合轮转，并提到三十拍的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 938.44,
+    "gold_end": 967.16,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_017",
+    "query": "谢影雪出手时犹豫、结果没把球回过去的那段",
+    "video_id": "match_badminton_02",
+    "gold_start": 1012.93,
+    "gold_end": 1055.72,
+    "query_type": "paraphrase"
+  },
+  {
+    "query_id": "match_test_018",
+    "query": "埃里斯回球太高，被对手抢到网前的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 1099.58,
+    "gold_end": 1105.1,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_019",
+    "query": "英格兰组合挑战失败，解说说还剩一次挑战机会的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 1149.78,
+    "gold_end": 1174.5,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_020",
+    "query": "中国香港组合二十一比十一赢下第一局的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 1263.71,
+    "gold_end": 1268.99,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_021",
+    "query": "第二局英格兰组合三比一领先两分的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 1391.34,
+    "gold_end": 1398.03,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_022",
+    "query": "英格兰先创造进攻机会，却因另一位搭档回球质量不足被邓俊文反攻的片段",
+    "video_id": "match_badminton_02",
+    "gold_start": 1510.15,
+    "gold_end": 1552.57,
+    "query_type": "hard"
+  },
+  {
+    "query_id": "match_test_023",
+    "query": "谢影雪发球后快速让出位置给队友，解说谈两人配合的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 1630.28,
+    "gold_end": 1649.28,
+    "query_type": "paraphrase"
+  },
+  {
+    "query_id": "match_test_024",
+    "query": "打向两个人的结合部直接得分、比分报到八比七的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 1726.82,
+    "gold_end": 1736.1,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_025",
+    "query": "谢影雪连续贴网回球，把对手逼出不到位的球再交给邓俊文进攻的分析",
+    "video_id": "match_badminton_02",
+    "gold_start": 1787.18,
+    "gold_end": 1800.58,
+    "query_type": "hard"
+  },
+  {
+    "query_id": "match_test_026",
+    "query": "史密斯提前移动到回球位置，一拍杀死的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 1874.82,
+    "gold_end": 1894.97,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_027",
+    "query": "史密斯回出滚网球，球路突变让对手来不及反应的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 1978.31,
+    "gold_end": 1993.91,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_028",
+    "query": "回球落在半场，被埃里斯抓住进攻机会的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 2041.62,
+    "gold_end": 2057.52,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_029",
+    "query": "第二局打追身球后，解说报出十四平的地方",
+    "video_id": "match_badminton_02",
+    "gold_start": 2190.53,
+    "gold_end": 2202.66,
+    "query_type": "event"
+  },
+  {
+    "query_id": "match_test_030",
+    "query": "比赛末段出现发球失误，随后中国香港组合二比零获胜的那一段",
+    "video_id": "match_badminton_02",
+    "gold_start": 2431.89,
+    "gold_end": 2468.11,
+    "query_type": "event"
+  }
+]

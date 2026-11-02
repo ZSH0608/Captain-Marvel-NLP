@@ -1,0 +1,54 @@
+[
+  {
+    "video_id": "match_badminton_01",
+    "filename": "match_badminton_01.mp4",
+    "title": "【央视解说】2019福州羽毛球公开赛混双八强赛:郑思维黄雅琼vs徐承宰蔡侑玎",
+    "source_url": "https://b23.tv/im4ZuwI",
+    "source_platform": "哔哩哔哩",
+    "source_information_note": "标题及链接由成员4提供；未独立核实网页授权或上传者身份。",
+    "license_note": "未提供权利人授权证明；保留来源信息，使用与分享权限待确认，不宣称已获授权。",
+    "duration_sec": 2000.4,
+    "language": "zh",
+    "local_path": "data/raw_videos/match/match_badminton_01.mp4",
+    "transcript_path": "data/transcripts/match/match_badminton_01.json",
+    "file_size_bytes": 1206943661,
+    "audio_track_count": 1,
+    "transcript_segment_count": 419,
+    "transcript_review_note": "成员4已在会话中确认回听校对；文件内模型初稿状态字段可能未同步更新。",
+    "effective_commentary_duration_sec": null,
+    "effective_commentary_status": "待人工统计；视频总时长及ASR时间窗并集不能证明有效解说时长。",
+    "cloud_url": null,
+    "cloud_password": null,
+    "cloud_status": "待上传网盘并补充链接及提取码",
+    "side_mapping": {
+      "A": "郑思维/黄雅琼",
+      "B": "徐承宰/蔡侑玎"
+    }
+  },
+  {
+    "video_id": "match_badminton_02",
+    "filename": "match_badminton_02.mp4",
+    "title": "（央视解说）2021世界羽联巡回赛总决赛 混双小组赛B组 邓俊文/谢影雪（中国香港）VS埃利斯/史密斯（英格兰）",
+    "source_url": "https://b23.tv/EzKo1ME",
+    "source_platform": "哔哩哔哩",
+    "source_information_note": "标题及链接由成员4提供；未独立核实网页授权或上传者身份。",
+    "license_note": "未提供权利人授权证明；保留来源信息，使用与分享权限待确认，不宣称已获授权。",
+    "duration_sec": 2473.32,
+    "language": "zh",
+    "local_path": "data/raw_videos/match/match_badminton_02.mp4",
+    "transcript_path": "data/transcripts/match/match_badminton_02.json",
+    "file_size_bytes": 1619802143,
+    "audio_track_count": 1,
+    "transcript_segment_count": 391,
+    "transcript_review_note": "成员4已在会话中确认回听校对；文件内模型初稿状态字段可能未同步更新。",
+    "effective_commentary_duration_sec": null,
+    "effective_commentary_status": "待人工统计；视频总时长及ASR时间窗并集不能证明有效解说时长。",
+    "cloud_url": null,
+    "cloud_password": null,
+    "cloud_status": "待上传网盘并补充链接及提取码",
+    "side_mapping": {
+      "A": "邓俊文/谢影雪",
+      "B": "埃利斯/史密斯"
+    }
+  }
+]
