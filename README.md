@@ -23,4 +23,4 @@ NLP 课程大作业 · Track B（Demonstration）· Team Captain Marvel
 
 ## 团队
 
-张书晗 / 滕鑫 / 李子非 / 付子轩 / 赵悦娇
+张书晗 / 滕鑫 / 李子非 / 付子璇 / 赵悦娇
