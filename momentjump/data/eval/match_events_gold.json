@@ -1,0 +1,303 @@
+[
+  {
+    "event_id": "match_e_001",
+    "video_id": "match_badminton_01",
+    "event_type": "point_start",
+    "start_sec": 53.1,
+    "end_sec": 53.82,
+    "winner_side": null,
+    "score_after": null,
+    "evidence_text": "黄雅琼发球"
+  },
+  {
+    "event_id": "match_e_002",
+    "video_id": "match_badminton_01",
+    "event_type": "other",
+    "start_sec": 201.67,
+    "end_sec": 204.83,
+    "winner_side": "A",
+    "score_after": null,
+    "evidence_text": "界内球；挑战成功"
+  },
+  {
+    "event_id": "match_e_003",
+    "video_id": "match_badminton_01",
+    "event_type": "score_change",
+    "start_sec": 218.71,
+    "end_sec": 220.23,
+    "winner_side": "A",
+    "score_after": "5:1",
+    "evidence_text": "开局取得了4比1的领先",
+    "notes": "人工回看视频确认事件后比分为5:1；解说原文提到4比1，保留原文，不据此覆盖画面核实结果。"
+  },
+  {
+    "event_id": "match_e_004",
+    "video_id": "match_badminton_01",
+    "event_type": "point_end",
+    "start_sec": 262.5,
+    "end_sec": 270.5,
+    "winner_side": "A",
+    "score_after": "7:1",
+    "evidence_text": "对手出现了失误；在这个回合当中还是配合上面；有点乱；有点抢在中路球当中"
+  },
+  {
+    "event_id": "match_e_005",
+    "video_id": "match_badminton_01",
+    "event_type": "other",
+    "start_sec": 297.18,
+    "end_sec": 300.46,
+    "winner_side": "B",
+    "score_after": "7:2",
+    "evidence_text": "蔡侑玎的封网也是；抓住了郑思维"
+  },
+  {
+    "event_id": "match_e_006",
+    "video_id": "match_badminton_01",
+    "event_type": "score_change",
+    "start_sec": 583.75,
+    "end_sec": 586.75,
+    "winner_side": "A",
+    "score_after": "11:7",
+    "evidence_text": "十一比七 中国组合领先四分"
+  },
+  {
+    "event_id": "match_e_007",
+    "video_id": "match_badminton_01",
+    "event_type": "point_start",
+    "start_sec": 725.58,
+    "end_sec": 726.38,
+    "winner_side": null,
+    "score_after": null,
+    "evidence_text": "黄雅琼发球"
+  },
+  {
+    "event_id": "match_e_008",
+    "video_id": "match_badminton_01",
+    "event_type": "point_end",
+    "start_sec": 762.59,
+    "end_sec": 763.59,
+    "winner_side": "A",
+    "score_after": null,
+    "evidence_text": "球没打准"
+  },
+  {
+    "event_id": "match_e_009",
+    "video_id": "match_badminton_01",
+    "event_type": "point_end",
+    "start_sec": 832.93,
+    "end_sec": 858.06,
+    "winner_side": "A",
+    "score_after": null,
+    "evidence_text": "蔡侑玎这球；过网的时候也是；打到了拍框"
+  },
+  {
+    "event_id": "match_e_010",
+    "video_id": "match_badminton_01",
+    "event_type": "score_change",
+    "start_sec": 983.98,
+    "end_sec": 990.08,
+    "winner_side": "A",
+    "score_after": "18:12",
+    "evidence_text": "18比12；郑思维和黄雅琼领先6分"
+  },
+  {
+    "event_id": "match_e_011",
+    "video_id": "match_badminton_01",
+    "event_type": "score_change",
+    "start_sec": 1098.41,
+    "end_sec": 1104.89,
+    "winner_side": "A",
+    "score_after": "21:14",
+    "evidence_text": "21比14 郑思维和黄雅琼第一局领先；在7分的优势先拿下了第一局比赛的胜利"
+  },
+  {
+    "event_id": "match_e_012",
+    "video_id": "match_badminton_01",
+    "event_type": "score_change",
+    "start_sec": 1294.35,
+    "end_sec": 1296.35,
+    "winner_side": "A",
+    "score_after": "5:0",
+    "evidence_text": "非常完美的开局 五比零的领先"
+  },
+  {
+    "event_id": "match_e_013",
+    "video_id": "match_badminton_01",
+    "event_type": "point_end",
+    "start_sec": 1331.68,
+    "end_sec": 1359.98,
+    "winner_side": "B",
+    "score_after": null,
+    "evidence_text": "刚才是通过郑思维的失误；韩国组合终于是拿下了；第二局比赛的第一分"
+  },
+  {
+    "event_id": "match_e_014",
+    "video_id": "match_badminton_01",
+    "event_type": "other",
+    "start_sec": 1402.1,
+    "end_sec": 1413.36,
+    "winner_side": "A",
+    "score_after": null,
+    "evidence_text": "郑思维提出了挑战；界外球 界外一点点；挑战成功"
+  },
+  {
+    "event_id": "match_e_015",
+    "video_id": "match_badminton_01",
+    "event_type": "point_end",
+    "start_sec": 1977.86,
+    "end_sec": 1987.52,
+    "winner_side": "A",
+    "score_after": null,
+    "evidence_text": "韩国组合失误；那这样的话；郑思维和黄雅琼在这场四分之一决赛是2比0；击败了韩国组合"
+  },
+  {
+    "event_id": "match_e_016",
+    "video_id": "match_badminton_02",
+    "event_type": "point_start",
+    "start_sec": 249.62,
+    "end_sec": 251.62,
+    "winner_side": null,
+    "score_after": null,
+    "evidence_text": "开场直接偷一个后场发球"
+  },
+  {
+    "event_id": "match_e_017",
+    "video_id": "match_badminton_02",
+    "event_type": "score_change",
+    "start_sec": 464.55,
+    "end_sec": 468.47,
+    "winner_side": "A",
+    "score_after": "7:1",
+    "evidence_text": "目前中国香港组合是7比1；领先6分"
+  },
+  {
+    "event_id": "match_e_018",
+    "video_id": "match_badminton_02",
+    "event_type": "point_end",
+    "start_sec": 473.71,
+    "end_sec": 485.32,
+    "winner_side": "A",
+    "score_after": null,
+    "evidence_text": "埃里斯这边的网前回球失误；追求更加贴网的回球的时候；他失误的概率自然而然的就会增大一些"
+  },
+  {
+    "event_id": "match_e_019",
+    "video_id": "match_badminton_02",
+    "event_type": "point_start",
+    "start_sec": 584.96,
+    "end_sec": 598.25,
+    "winner_side": null,
+    "score_after": null,
+    "evidence_text": "史密斯发球"
+  },
+  {
+    "event_id": "match_e_020",
+    "video_id": "match_badminton_02",
+    "event_type": "point_end",
+    "start_sec": 688.09,
+    "end_sec": 691.09,
+    "winner_side": "B",
+    "score_after": null,
+    "evidence_text": "邓俊文一个发球失误；丢掉一分"
+  },
+  {
+    "event_id": "match_e_021",
+    "video_id": "match_badminton_02",
+    "event_type": "other",
+    "start_sec": 777.0,
+    "end_sec": 781.0,
+    "winner_side": "B",
+    "score_after": null,
+    "evidence_text": "谢影雪邓俊文的；球拍撞到了一起"
+  },
+  {
+    "event_id": "match_e_022",
+    "video_id": "match_badminton_02",
+    "event_type": "point_end",
+    "start_sec": 808.93,
+    "end_sec": 812.93,
+    "winner_side": "B",
+    "score_after": null,
+    "evidence_text": "看看是不是出界了；嗯 出界"
+  },
+  {
+    "event_id": "match_e_023",
+    "video_id": "match_badminton_02",
+    "event_type": "other",
+    "start_sec": 1149.78,
+    "end_sec": 1174.5,
+    "winner_side": "A",
+    "score_after": null,
+    "evidence_text": "看看这次挑战；界外一点点；挑战失败；英格兰队还剩下一次挑战的机会"
+  },
+  {
+    "event_id": "match_e_024",
+    "video_id": "match_badminton_02",
+    "event_type": "score_change",
+    "start_sec": 1263.71,
+    "end_sec": 1268.99,
+    "winner_side": "A",
+    "score_after": "21:11",
+    "evidence_text": "第一局的比赛；中国香港组合是以21比11取得了胜利"
+  },
+  {
+    "event_id": "match_e_025",
+    "video_id": "match_badminton_02",
+    "event_type": "score_change",
+    "start_sec": 1391.34,
+    "end_sec": 1398.03,
+    "winner_side": "B",
+    "score_after": "1:3",
+    "evidence_text": "吊一拍；3比1 目前英格兰领先2分"
+  },
+  {
+    "event_id": "match_e_026",
+    "video_id": "match_badminton_02",
+    "event_type": "point_end",
+    "start_sec": 1630.28,
+    "end_sec": 1636.28,
+    "winner_side": "B",
+    "score_after": null,
+    "evidence_text": "谢影雪发球之后立刻；这边自己一个回球失误也很可惜"
+  },
+  {
+    "event_id": "match_e_027",
+    "video_id": "match_badminton_02",
+    "event_type": "score_change",
+    "start_sec": 1709.42,
+    "end_sec": 1726.82,
+    "winner_side": "A",
+    "score_after": "7:7",
+    "evidence_text": "7比7平"
+  },
+  {
+    "event_id": "match_e_028",
+    "video_id": "match_badminton_02",
+    "event_type": "point_end",
+    "start_sec": 1978.31,
+    "end_sec": 1993.91,
+    "winner_side": "B",
+    "score_after": null,
+    "evidence_text": "这球史密斯回的相当的幸运；一个滚网球；打出滚网球之后；这个球的路线会及时的迅速的发生变化；这样的话；中国香港组合接起来是反应不过来"
+  },
+  {
+    "event_id": "match_e_029",
+    "video_id": "match_badminton_02",
+    "event_type": "score_change",
+    "start_sec": 2190.53,
+    "end_sec": 2202.66,
+    "winner_side": "B",
+    "score_after": "14:14",
+    "evidence_text": "也是打了一个追身；14平"
+  },
+  {
+    "event_id": "match_e_030",
+    "video_id": "match_badminton_02",
+    "event_type": "point_end",
+    "start_sec": 2431.89,
+    "end_sec": 2442.89,
+    "winner_side": "A",
+    "score_after": null,
+    "evidence_text": "而这球自己失误了；这样关键的时候有一个发球失误肯定是相当的懊恼的"
+  }
+]
