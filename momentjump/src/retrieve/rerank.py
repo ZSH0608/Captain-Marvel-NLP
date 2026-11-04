@@ -12,6 +12,10 @@ class Reranker:
         self._model = None
 
     def _load_model(self) -> None:
+        import os  # 模型已缓存于本地，强制离线
+
+        os.environ.setdefault("HF_HUB_OFFLINE", "1")
+        os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
         from sentence_transformers import CrossEncoder  # 延迟导入
 
         self._model = CrossEncoder(self.model_name)

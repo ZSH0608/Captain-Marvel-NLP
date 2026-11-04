@@ -29,13 +29,17 @@ def cosine_search(
 class DenseRetriever:
     """sentence-transformers 编码 + numpy 检索。"""
 
-    def __init__(self, model_name: str = "BAAI/bge-m3", device: str = "cpu") -> None:
+    def __init__(self, model_name: str = "BAAI/bge-base-zh-v1.5", device: str = "cpu") -> None:
         self.model_name = model_name
         self.device = device
         self._model = None
         self._vectors: Optional[np.ndarray] = None
 
     def _load_model(self) -> None:
+        import os  # 模型已缓存于本地，强制离线，避免联网重查
+
+        os.environ.setdefault("HF_HUB_OFFLINE", "1")
+        os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
         from sentence_transformers import SentenceTransformer  # 延迟导入
 
         self._model = SentenceTransformer(self.model_name, device=self.device)

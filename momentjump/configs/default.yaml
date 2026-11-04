@@ -15,7 +15,7 @@ chunking:
   sliding_step_sec: 7.5
 
 embedding:
-  model_name: BAAI/bge-m3      # 或 BAAI/bge-base-zh-v1.5（中文）
+  model_name: BAAI/bge-base-zh-v1.5   # 中文优先；已缓存于 t7 硬盘
 
 rerank:
   model_name: BAAI/bge-reranker-base
