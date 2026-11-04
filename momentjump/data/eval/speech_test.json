@@ -1,0 +1,182 @@
+[
+  {
+    "query_id": "speech_test_001",
+    "query": "后缀表达式的运算符放在哪里，操作数的左右次序能不能交换？",
+    "video_id": "speech_10",
+    "gold_start": 148.52,
+    "gold_end": 215.02,
+    "query_type": "term",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_test_002",
+    "query": "讲逆波兰表达式的运算符位置和操作数顺序的那段",
+    "video_id": "speech_10",
+    "gold_start": 148.52,
+    "gold_end": 215.02,
+    "query_type": "alias",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_test_003",
+    "query": "前缀表达式还有什么名字，为什么这些表达式的名字里有波兰？",
+    "video_id": "speech_10",
+    "gold_start": 148.52,
+    "gold_end": 171.62,
+    "query_type": "term",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_test_004",
+    "query": "介绍波兰表达式及其名称来源的地方",
+    "video_id": "speech_10",
+    "gold_start": 148.52,
+    "gold_end": 171.62,
+    "query_type": "alias",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_test_005",
+    "query": "KMP 算法失配时修改哪个指针，主串指针是否回溯？",
+    "video_id": "speech_11",
+    "gold_start": 1338.28,
+    "gold_end": 1359.8,
+    "query_type": "term",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_test_006",
+    "query": "讲克努特—莫里斯—普拉特字符串匹配算法失配后主串指针不回退的地方",
+    "video_id": "speech_11",
+    "gold_start": 1338.28,
+    "gold_end": 1359.8,
+    "query_type": "alias",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_test_007",
+    "query": "Unicode 字符集为什么比只能表示 256 个状态的范围更广？",
+    "video_id": "speech_12",
+    "gold_start": 1062.75,
+    "gold_end": 1105.43,
+    "query_type": "term",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_test_008",
+    "query": "介绍统一码字符集如何包含中文、英文字母和数字的那段",
+    "video_id": "speech_12",
+    "gold_start": 1062.75,
+    "gold_end": 1105.43,
+    "query_type": "alias",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_test_009",
+    "query": "尾插法建立单链表时，表尾指针 R 如何帮助插入并更新？",
+    "video_id": "speech_08",
+    "gold_start": 183.84,
+    "gold_end": 228.34,
+    "query_type": "term",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_test_010",
+    "query": "讲尾部插入建表如何利用尾指针避免每次重新找末节点的地方",
+    "video_id": "speech_08",
+    "gold_start": 183.84,
+    "gold_end": 228.34,
+    "query_type": "alias",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_test_011",
+    "query": "想知道链表一共有多少个元素，怎样一边往后走一边计数？",
+    "video_id": "speech_07",
+    "gold_start": 531.82,
+    "gold_end": 594.64,
+    "query_type": "paraphrase",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_test_012",
+    "query": "老师怎么利用每次都插到最前面的做法，把链表里的元素倒过来？",
+    "video_id": "speech_08",
+    "gold_start": 635.79,
+    "gold_end": 725.05,
+    "query_type": "paraphrase",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_test_013",
+    "query": "已知二维数组的起始地址，怎样数前面的元素来算目标元素的地址？",
+    "video_id": "speech_09",
+    "gold_start": 253.18,
+    "gold_end": 314.78,
+    "query_type": "paraphrase",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_test_014",
+    "query": "先求 next 数组、再匹配字符串，这两部分各花多少时间，加起来是多少？",
+    "video_id": "speech_11",
+    "gold_start": 1381.14,
+    "gold_end": 1445.24,
+    "query_type": "paraphrase",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_test_015",
+    "query": "字符串也是一条线排起来的数据，它和普通线性表在元素类型上有什么区别？",
+    "video_id": "speech_12",
+    "gold_start": 306.97,
+    "gold_end": 328.69,
+    "query_type": "paraphrase",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_test_016",
+    "query": "沿着链表一直找到了尽头也没有找到指定值，函数拿什么结果告诉调用者没找到？",
+    "video_id": "speech_07",
+    "gold_start": 489.14,
+    "gold_end": 552.6,
+    "query_type": "hard",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_test_017",
+    "query": "每次追加元素都重新走到表尾，为什么建完整张表会变成平方级开销，怎样避免？",
+    "video_id": "speech_08",
+    "gold_start": 118.52,
+    "gold_end": 228.34,
+    "query_type": "hard",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_test_018",
+    "query": "内存本来是一条线，为什么二维数组仍能直接访问指定位置的元素？",
+    "video_id": "speech_09",
+    "gold_start": 168.3,
+    "gold_end": 209.4,
+    "query_type": "hard",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_test_019",
+    "query": "把除法写成运算符在最后的形式时，为什么不能随意交换前面的两个操作数？",
+    "video_id": "speech_10",
+    "gold_start": 171.62,
+    "gold_end": 215.02,
+    "query_type": "hard",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_test_020",
+    "query": "文件保存时看起来正常，换个软件打开却成了乱码，编码和解码哪里可能没有对应上？",
+    "video_id": "speech_12",
+    "gold_start": 1228.41,
+    "gold_end": 1317.63,
+    "query_type": "hard",
+    "notes": " "
+  }
+]
