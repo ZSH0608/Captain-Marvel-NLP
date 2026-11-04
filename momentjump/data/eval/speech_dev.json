@@ -1,0 +1,182 @@
+[
+  {
+    "query_id": "speech_dev_001",
+    "query": "线性表的严格定义是什么，对元素的数据类型有什么要求？",
+    "video_id": "speech_01",
+    "gold_start": 63.02,
+    "gold_end": 106.34,
+    "query_type": "term",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_dev_002",
+    "query": "讲解 linear list 定义和元素类型要求的地方",
+    "video_id": "speech_01",
+    "gold_start": 63.02,
+    "gold_end": 106.34,
+    "query_type": "alias",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_dev_003",
+    "query": "顺序表如何用顺序存储实现线性表？",
+    "video_id": "speech_02",
+    "gold_start": 67.3,
+    "gold_end": 91.82,
+    "query_type": "term",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_dev_004",
+    "query": "讲 sequential list 中逻辑相邻与物理相邻关系的片段",
+    "video_id": "speech_02",
+    "gold_start": 67.3,
+    "gold_end": 91.82,
+    "query_type": "alias",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_dev_005",
+    "query": "为什么单链表的节点只需要一个后继指针？",
+    "video_id": "speech_05",
+    "gold_start": 66.83,
+    "gold_end": 86.87,
+    "query_type": "term",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_dev_006",
+    "query": "介绍 singly linked list 的节点由什么组成的地方",
+    "video_id": "speech_05",
+    "gold_start": 66.83,
+    "gold_end": 86.87,
+    "query_type": "alias",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_dev_007",
+    "query": "malloc 和 free 分别有什么作用，malloc 返回的是什么？",
+    "video_id": "speech_02",
+    "gold_start": 738.04,
+    "gold_end": 804.6,
+    "query_type": "term",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_dev_008",
+    "query": "讲动态内存申请函数和内存释放函数，以及申请函数返回地址的地方",
+    "video_id": "speech_02",
+    "gold_start": 738.04,
+    "gold_end": 804.6,
+    "query_type": "alias",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_dev_009",
+    "query": "C++ 引用参数如何把函数内的修改带回调用者？",
+    "video_id": "speech_01",
+    "gold_start": 786.92,
+    "gold_end": 849.8,
+    "query_type": "term",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_dev_010",
+    "query": "讲 reference 参数为什么能让 test 修改 main 中变量的那段",
+    "video_id": "speech_01",
+    "gold_start": 786.92,
+    "gold_end": 849.8,
+    "query_type": "alias",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_dev_011",
+    "query": "数组不够装了，老师怎么申请更大的空间、搬走旧数据再释放原来的内存？",
+    "video_id": "speech_02",
+    "gold_start": 1074.2,
+    "gold_end": 1212.18,
+    "query_type": "paraphrase",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_dev_012",
+    "query": "往顺序表最后面添加一个元素，为什么可以不用挪动其他元素？",
+    "video_id": "speech_03",
+    "gold_start": 548.94,
+    "gold_end": 569.9,
+    "query_type": "paraphrase",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_dev_013",
+    "query": "给定一个值，怎么在顺序表里找出它是第几个元素？",
+    "video_id": "speech_04",
+    "gold_start": 311.88,
+    "gold_end": 355.22,
+    "query_type": "paraphrase",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_dev_014",
+    "query": "有头节点和没有头节点的链表，判断空表时分别看哪个指针？",
+    "video_id": "speech_05",
+    "gold_start": 537.95,
+    "gold_end": 621.45,
+    "query_type": "paraphrase",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_dev_015",
+    "query": "往单链表第 i 个位置插入节点前，要先找到谁，再怎么把新节点接进去？",
+    "video_id": "speech_06",
+    "gold_start": 384.9,
+    "gold_end": 450.96,
+    "query_type": "paraphrase",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_dev_016",
+    "query": "两个变量明明都叫 x，为什么函数里改成了 1024，回到主函数却还是 1？",
+    "video_id": "speech_01",
+    "gold_start": 721.62,
+    "gold_end": 786.22,
+    "query_type": "hard",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_dev_017",
+    "query": "初始化顺序表时没有给整个数组赋默认值，为什么不一定影响正确使用？",
+    "video_id": "speech_02",
+    "gold_start": 439.62,
+    "gold_end": 590.22,
+    "query_type": "hard",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_dev_018",
+    "query": "插入后如果元素之间留下了空位置，违背了什么要求，代码应怎样防止这种情况？",
+    "video_id": "speech_03",
+    "gold_start": 295.36,
+    "gold_end": 336.02,
+    "query_type": "hard",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_dev_019",
+    "query": "数据从整数换成结构体以后，为什么不能直接照搬双等号判断相等？",
+    "video_id": "speech_04",
+    "gold_start": 441.0,
+    "gold_end": 503.88,
+    "query_type": "hard",
+    "notes": " "
+  },
+  {
+    "query_id": "speech_dev_020",
+    "query": "哪种存储方式扩容时不必找大片连续空间，却不能直接跳到第几个元素？",
+    "video_id": "speech_05",
+    "gold_start": 86.87,
+    "gold_end": 155.47,
+    "query_type": "hard",
+    "notes": " "
+  }
+]

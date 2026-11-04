@@ -1,0 +1,162 @@
+[
+  {
+    "canonical": "线性表",
+    "aliases": [
+      "linear list"
+    ]
+  },
+  {
+    "canonical": "顺序表",
+    "aliases": [
+      "sequential list",
+      "顺序存储的线性表"
+    ]
+  },
+  {
+    "canonical": "单链表",
+    "aliases": [
+      "singly linked list",
+      "单向链表"
+    ]
+  },
+  {
+    "canonical": "头节点",
+    "aliases": [
+      "头结点",
+      "哨兵节点"
+    ]
+  },
+  {
+    "canonical": "头指针",
+    "aliases": [
+      "head pointer"
+    ]
+  },
+  {
+    "canonical": "尾指针",
+    "aliases": [
+      "tail pointer",
+      "表尾指针"
+    ]
+  },
+  {
+    "canonical": "头插法",
+    "aliases": [
+      "头部插入建表",
+      "head insertion"
+    ]
+  },
+  {
+    "canonical": "尾插法",
+    "aliases": [
+      "尾部插入建表",
+      "tail insertion"
+    ]
+  },
+  {
+    "canonical": "按位查找",
+    "aliases": [
+      "按位序查找",
+      "get element by position"
+    ]
+  },
+  {
+    "canonical": "按值查找",
+    "aliases": [
+      "按值检索",
+      "locate element by value"
+    ]
+  },
+  {
+    "canonical": "引用参数",
+    "aliases": [
+      "reference 参数",
+      "C++ 引用形参"
+    ]
+  },
+  {
+    "canonical": "malloc",
+    "aliases": [
+      "动态内存申请函数",
+      "内存分配函数"
+    ]
+  },
+  {
+    "canonical": "free",
+    "aliases": [
+      "内存释放函数",
+      "释放动态内存"
+    ]
+  },
+  {
+    "canonical": "随机存取",
+    "aliases": [
+      "随机访问",
+      "random access"
+    ]
+  },
+  {
+    "canonical": "链表逆置",
+    "aliases": [
+      "链表反转",
+      "reverse linked list"
+    ]
+  },
+  {
+    "canonical": "后缀表达式",
+    "aliases": [
+      "逆波兰表达式",
+      "postfix expression",
+      "RPN"
+    ]
+  },
+  {
+    "canonical": "前缀表达式",
+    "aliases": [
+      "波兰表达式",
+      "prefix expression",
+      "Polish notation"
+    ]
+  },
+  {
+    "canonical": "中缀表达式",
+    "aliases": [
+      "infix expression"
+    ]
+  },
+  {
+    "canonical": "KMP 算法",
+    "aliases": [
+      "Knuth-Morris-Pratt 算法",
+      "克努特—莫里斯—普拉特字符串匹配算法"
+    ]
+  },
+  {
+    "canonical": "Unicode",
+    "aliases": [
+      "统一码",
+      "Unicode 字符集"
+    ]
+  },
+  {
+    "canonical": "字符串",
+    "aliases": [
+      "串",
+      "string"
+    ]
+  },
+  {
+    "canonical": "行优先存储",
+    "aliases": [
+      "按行存储",
+      "row-major order"
+    ]
+  },
+  {
+    "canonical": "列优先存储",
+    "aliases": [
+      "按列存储",
+      "column-major order"
+    ]
+  }
+]

@@ -1,4 +1,6 @@
 # ---- Python ----
+.asr-deps/
+.asr-models/
 __pycache__/
 *.py[cod]
 *$py.class
@@ -40,3 +42,5 @@ Thumbs.db
 
 # ---- 临时输出 ----
 momentjump/outputs/
+# ---- 其他 ----
+transcribe_speech.py
