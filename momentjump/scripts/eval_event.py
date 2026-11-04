@@ -107,9 +107,39 @@ def run_llm(items_by_video: Dict[str, List[TimedText]], side_map, model: str, ca
     return preds
 
 
+def run_fusion(
+    items_by_video: Dict[str, List[TimedText]],
+    side_map,
+    model: str,
+    cache_path: str = "data/reports/fusion_pred_events.json",
+) -> List[Dict]:
+    """规则召回 + LLM 精排（融合），带结果缓存。"""
+    if os.path.exists(cache_path):
+        with open(cache_path, encoding="utf-8") as f:
+            return json.load(f)
+
+    from src.ingest.event_spotting_llm import llm_refine_rule_events
+
+    preds: List[Dict] = []
+    for vid, items in items_by_video.items():
+        a, b = side_map[vid]
+        a_terms = [t.strip() for t in a.split("/") if t.strip()]
+        b_terms = [t.strip() for t in b.split("/") if t.strip()]
+        rule_events = rule_based_spot(items, a_terms, b_terms)
+        refined = llm_refine_rule_events(rule_events, a, b, model=model)
+        for ev in refined:
+            ev["video_id"] = vid
+        preds.extend(refined)
+
+    os.makedirs(os.path.dirname(cache_path), exist_ok=True)
+    with open(cache_path, "w", encoding="utf-8") as f:
+        json.dump(preds, f, ensure_ascii=False, indent=2)
+    return preds
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="事件识别评测")
-    parser.add_argument("--method", default="rule", choices=["rule", "llm"])
+    parser.add_argument("--method", default="rule", choices=["rule", "llm", "fusion"])
     parser.add_argument("--model", default="qwen2.5:3b", help="llm 模式用的 ollama 模型")
     parser.add_argument("--transcripts", default="data/transcripts/match")
     parser.add_argument("--gold", default="data/eval/match_events_gold.json")
@@ -129,6 +159,8 @@ def main() -> None:
 
     if args.method == "llm":
         preds = run_llm(items_by_video, side_map, args.model)
+    elif args.method == "fusion":
+        preds = run_fusion(items_by_video, side_map, args.model)
     else:
         preds = run_rule(items_by_video, side_map)
 
