@@ -158,5 +158,109 @@
       "按列存储",
       "column-major order"
     ]
+  },
+  {
+    "canonical": "队列",
+    "aliases": [
+      "queue",
+      "队"
+    ]
+  },
+  {
+    "canonical": "循环队列",
+    "aliases": [
+      "circular queue",
+      "环形队列"
+    ]
+  },
+  {
+    "canonical": "链队列",
+    "aliases": [
+      "linked queue",
+      "链式队列"
+    ]
+  },
+  {
+    "canonical": "双端队列",
+    "aliases": [
+      "deque",
+      "双端队"
+    ]
+  },
+  {
+    "canonical": "二叉树",
+    "aliases": [
+      "binary tree",
+      "二叉数"
+    ]
+  },
+  {
+    "canonical": "满二叉树",
+    "aliases": [
+      "full binary tree",
+      "满二叉数"
+    ]
+  },
+  {
+    "canonical": "完全二叉树",
+    "aliases": [
+      "complete binary tree",
+      "完全二叉数"
+    ]
+  },
+  {
+    "canonical": "二叉排序树",
+    "aliases": [
+      "binary search tree",
+      "BST"
+    ]
+  },
+  {
+    "canonical": "平衡二叉树",
+    "aliases": [
+      "AVL tree",
+      "balanced binary tree"
+    ]
+  },
+  {
+    "canonical": "先序遍历",
+    "aliases": [
+      "前序遍历",
+      "preorder traversal"
+    ]
+  },
+  {
+    "canonical": "中序遍历",
+    "aliases": [
+      "inorder traversal",
+      "中根遍历"
+    ]
+  },
+  {
+    "canonical": "后序遍历",
+    "aliases": [
+      "postorder traversal",
+      "后根遍历"
+    ]
+  },
+  {
+    "canonical": "空树",
+    "aliases": [
+      "empty tree"
+    ]
+  },
+  {
+    "canonical": "无向图",
+    "aliases": [
+      "undirected graph",
+      "无相图"
+    ]
+  },
+  {
+    "canonical": "有向图",
+    "aliases": [
+      "directed graph",
+      "有相图"
+    ]
   }
 ]

@@ -178,5 +178,95 @@
     "gold_end": 155.47,
     "query_type": "hard",
     "notes": " "
+  },
+  {
+    "query_id": "speech_dev_021",
+    "query": "什么是循环队列，为什么顺序队列要做成环状？",
+    "video_id": "speech_13",
+    "gold_start": 313.3,
+    "gold_end": 334.2,
+    "query_type": "term",
+    "notes": "成员2补充"
+  },
+  {
+    "query_id": "speech_dev_022",
+    "query": "讲 circular queue 如何用取余把数组收成环的地方",
+    "video_id": "speech_13",
+    "gold_start": 313.3,
+    "gold_end": 334.2,
+    "query_type": "alias",
+    "notes": "成员2补充"
+  },
+  {
+    "query_id": "speech_dev_023",
+    "query": "不想浪费那个空位时，怎么用一个计数变量区分队满和队空？",
+    "video_id": "speech_13",
+    "gold_start": 585.9,
+    "gold_end": 668.3,
+    "query_type": "paraphrase",
+    "notes": "成员2补充"
+  },
+  {
+    "query_id": "speech_dev_024",
+    "query": "用链式存储实现的队列叫什么，为什么要单独保存尾指针？",
+    "video_id": "speech_14",
+    "gold_start": 81.9,
+    "gold_end": 143.5,
+    "query_type": "term",
+    "notes": "成员2补充"
+  },
+  {
+    "query_id": "speech_dev_025",
+    "query": "不带头结点时，第一个元素入队为什么要同时改头指针和尾指针？",
+    "video_id": "speech_14",
+    "gold_start": 273.3,
+    "gold_end": 315.5,
+    "query_type": "hard",
+    "notes": "成员2补充"
+  },
+  {
+    "query_id": "speech_dev_026",
+    "query": "双端队列允许在哪两端做插入和删除？",
+    "video_id": "speech_15",
+    "gold_start": 21.2,
+    "gold_end": 43.1,
+    "query_type": "term",
+    "notes": "成员2补充"
+  },
+  {
+    "query_id": "speech_dev_027",
+    "query": "只能从一边放进去、但两边都能拿出来的那种队列是什么？",
+    "video_id": "speech_15",
+    "gold_start": 65.9,
+    "gold_end": 87.3,
+    "query_type": "paraphrase",
+    "notes": "成员2补充"
+  },
+  {
+    "query_id": "speech_dev_028",
+    "query": "满二叉树除最后一层外分支结点有什么特点，结点的度只能是多少？",
+    "video_id": "speech_16",
+    "gold_start": 148.7,
+    "gold_end": 190.2,
+    "query_type": "term",
+    "notes": "成员2补充"
+  },
+  {
+    "query_id": "speech_dev_029",
+    "query": "讲 full binary tree 只有最底层有叶子、度不为 1 的地方",
+    "video_id": "speech_16",
+    "gold_start": 148.7,
+    "gold_end": 190.2,
+    "query_type": "alias",
+    "notes": "成员2补充"
+  },
+  {
+    "query_id": "speech_dev_030",
+    "query": "先序遍历按什么顺序访问根结点和左右子树？",
+    "video_id": "speech_17",
+    "gold_start": 85.8,
+    "gold_end": 128.0,
+    "query_type": "term",
+    "notes": "成员2补充"
   }
 ]
