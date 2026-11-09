@@ -16,9 +16,12 @@ from ..segment import TimedText
 
 # 一分开始：发球类词
 _POINT_START_WORDS = ["发球", "发球权", "开球", "换发球"]
-# 一分结束 / 得分类词
+# 一分结束 / 得分类词（含「失误得分」：gold point_end 主体是失误/出界）
 _POINT_END_WORDS = ["得分", "拿分", "得一分", "赢下这一分", "收吊", "杀球", "好球",
-                    "得分了", "扳回", "追平", "拿下", "结束这一分", "降速", "这一分"]
+                    "得分了", "扳回", "追平", "拿下", "结束这一分", "降速", "这一分",
+                    "失误", "出界", "滚网", "拍框", "没打准", "失分"]
+# 其他事件（挑战鹰眼 / 技术动作 / 球拍碰撞）
+_OTHER_WORDS = ["挑战", "封网", "球拍撞", "球拍打", "界内球", "界外球"]
 # 比分正则：数字[:：比]数字，或"几比几"
 _SCORE_RE = re.compile(r"(\d{1,2})\s*[:：比]\s*(\d{1,2})")
 _LEAD_RE = re.compile(r"(\d{1,2})\s*比\s*(\d{1,2})")
@@ -81,7 +84,7 @@ def rule_based_spot(
     events: List[Dict] = []
     for i, t in enumerate(items):
         text = t.text
-        # 比分变化（阿拉伯/中文数字 + 平局，以裁判/解说报分为主）
+        # 1) 比分变化（阿拉伯/中文数字 + 平局，以裁判/解说报分为主）
         scores = extract_scores(text)
         if scores:
             a, b = scores[0]
@@ -94,7 +97,18 @@ def rule_based_spot(
                 "evidence_text": text,
             })
             continue
-        # 发球 → 一分开始
+        # 2) 得分词 → point_end（优先于发球，因「发球失误」是得分不是发球）
+        if any(w in text for w in _POINT_END_WORDS):
+            events.append({
+                "event_type": "point_end",
+                "start_sec": t.start,
+                "end_sec": t.end,
+                "winner_side": infer_winner_side(text, side_a_terms or [], side_b_terms or []),
+                "score_after": None,
+                "evidence_text": text,
+            })
+            continue
+        # 3) 发球 → point_start
         if any(w in text for w in _POINT_START_WORDS):
             events.append({
                 "event_type": "point_start",
@@ -105,10 +119,10 @@ def rule_based_spot(
                 "evidence_text": text,
             })
             continue
-        # 得分词 → 一分结束
-        if any(w in text for w in _POINT_END_WORDS):
+        # 4) 其他事件（挑战鹰眼 / 封网 / 球拍碰撞）
+        if any(w in text for w in _OTHER_WORDS):
             events.append({
-                "event_type": "point_end",
+                "event_type": "other",
                 "start_sec": t.start,
                 "end_sec": t.end,
                 "winner_side": infer_winner_side(text, side_a_terms or [], side_b_terms or []),
