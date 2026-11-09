@@ -178,5 +178,95 @@
     "gold_end": 1317.63,
     "query_type": "hard",
     "notes": " "
+  },
+  {
+    "query_id": "speech_test_021",
+    "query": "后序遍历是先走哪边，最后才访问根吗？",
+    "video_id": "speech_17",
+    "gold_start": 128.0,
+    "gold_end": 191.9,
+    "query_type": "paraphrase",
+    "notes": ""
+  },
+  {
+    "query_id": "speech_test_022",
+    "query": "递归求树的高度时，为什么说它其实是后序遍历的一种变体？",
+    "video_id": "speech_17",
+    "gold_start": 1324.1,
+    "gold_end": 1344.8,
+    "query_type": "hard",
+    "notes": ""
+  },
+  {
+    "query_id": "speech_test_023",
+    "query": "空树有几个结点，非空树的根结点有几个？",
+    "video_id": "speech_18",
+    "gold_start": 108.4,
+    "gold_end": 130.3,
+    "query_type": "term",
+    "notes": ""
+  },
+  {
+    "query_id": "speech_test_024",
+    "query": "讲 empty tree 结点数为 0、非空树有且仅有一个根的地方",
+    "video_id": "speech_18",
+    "gold_start": 108.4,
+    "gold_end": 130.3,
+    "query_type": "alias",
+    "notes": ""
+  },
+  {
+    "query_id": "speech_test_025",
+    "query": "除了根以外，为什么树上每个结点只能有一个前驱？",
+    "video_id": "speech_18",
+    "gold_start": 173.9,
+    "gold_end": 216.6,
+    "query_type": "paraphrase",
+    "notes": ""
+  },
+  {
+    "query_id": "speech_test_026",
+    "query": "无向图和有向图的边有什么不同，有向边又叫什么？",
+    "video_id": "speech_19",
+    "gold_start": 196.1,
+    "gold_end": 258.4,
+    "query_type": "term",
+    "notes": ""
+  },
+  {
+    "query_id": "speech_test_027",
+    "query": "讲 undirected graph 与 directed graph 里边和弧是否有方向的那段",
+    "video_id": "speech_19",
+    "gold_start": 196.1,
+    "gold_end": 258.4,
+    "query_type": "alias",
+    "notes": ""
+  },
+  {
+    "query_id": "speech_test_028",
+    "query": "无向图里把所有顶点的度数加起来，为什么正好是边数的两倍？",
+    "video_id": "speech_19",
+    "gold_start": 494.5,
+    "gold_end": 535.9,
+    "query_type": "paraphrase",
+    "notes": ""
+  },
+  {
+    "query_id": "speech_test_029",
+    "query": "完全二叉树的编号怎样和满二叉树对应，去掉哪些结点之后还算完全二叉树？",
+    "video_id": "speech_16",
+    "gold_start": 254.9,
+    "gold_end": 318.5,
+    "query_type": "hard",
+    "notes": ""
+  },
+  {
+    "query_id": "speech_test_030",
+    "query": "输出受限的双端队列为什么后面的元素只能按固定一侧的顺序出去？",
+    "video_id": "speech_15",
+    "gold_start": 544.7,
+    "gold_end": 588.3,
+    "query_type": "hard",
+    "notes": ""
   }
 ]
