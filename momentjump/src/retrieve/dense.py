@@ -26,6 +26,39 @@ def cosine_search(
     return [(int(i), float(sims[i])) for i in order]
 
 
+def _resolve_local_snapshot(model_name: str) -> str:
+    """把 HF 模型名解析为本地缓存快照路径（离线可用）；找不到则原样返回模型名。
+
+    兜底多个候选缓存根，并选取「含 config.json + 权重文件」的完整快照，
+    避免 HF 缓存存在多个不完整 snapshot 时加载失败。
+    """
+    import os
+
+    cache_name = "models--" + model_name.replace("/", "--")
+    candidates = []
+    hf_home = os.environ.get("HF_HOME")
+    if hf_home:
+        candidates.append(os.path.join(hf_home, cache_name))
+        candidates.append(os.path.join(hf_home, "hub", cache_name))
+    candidates.append(
+        os.path.join(os.path.expanduser("~"), ".cache", "huggingface", "hub", cache_name)
+    )
+
+    for base in candidates:
+        snap_dir = os.path.join(base, "snapshots")
+        if not os.path.isdir(snap_dir):
+            continue
+        for rev in sorted(os.listdir(snap_dir)):
+            p = os.path.join(snap_dir, rev)
+            has_cfg = os.path.exists(os.path.join(p, "config.json"))
+            has_weights = os.path.exists(os.path.join(p, "pytorch_model.bin")) or os.path.exists(
+                os.path.join(p, "model.safetensors")
+            )
+            if has_cfg and has_weights:
+                return p
+    return model_name
+
+
 class DenseRetriever:
     """sentence-transformers 编码 + numpy 检索。"""
 
@@ -42,7 +75,9 @@ class DenseRetriever:
         os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
         from sentence_transformers import SentenceTransformer  # 延迟导入
 
-        self._model = SentenceTransformer(self.model_name, device=self.device)
+        # 离线场景：优先用本地缓存快照路径，避免 HF 缓存不完整导致加载失败
+        local = _resolve_local_snapshot(self.model_name)
+        self._model = SentenceTransformer(local, device=self.device)
 
     def encode(
         self,

@@ -1,0 +1,50 @@
+[
+  {
+    "video_id": "drama1_yanxigonglue10",
+    "filename": "drama1_yanxigonglue10.mp4",
+    "title": "延禧攻略片段1",
+    "source_url": "你下载的网址",
+    "license_note": "仅供课设演示",
+    "duration_sec": 1200.0,
+    "local_path": "data/raw_videos/drama1_yanxigonglue10.mp4",
+    "transcript_path": "data/meta/srt/drama1_yanxigonglue10.srt",
+    "cloud_url": "网盘链接（没有就先空着）",
+    "cloud_password": ""
+  },
+  {
+    "video_id": "drama2_zootopia",
+    "filename": "drama2_zootopia.mp4",
+    "title": "疯狂动物城片段",
+    "source_url": "",
+    "license_note": "仅供课设演示",
+    "duration_sec": 1200.0,
+    "local_path": "data/raw_videos/drama2_zootopia.mp4",
+    "transcript_path": "data/meta/srt/drama2_zootopia.srt",
+    "cloud_url": "",
+    "cloud_password": ""
+  },
+  {
+    "video_id": "drama3_COCO",
+    "filename": "drama3_COCO.mp4",
+    "title": "寻梦环游记片段",
+    "source_url": "",
+    "license_note": "仅供课设演示",
+    "duration_sec": 1200.0,
+    "local_path": "data/raw_videos/drama3_COCO.mp4",
+    "transcript_path": "data/meta/srt/drama3_COCO.srt",
+    "cloud_url": "",
+    "cloud_password": ""
+  },
+  {
+    "video_id": "drama4_yanxigonglue17",
+    "filename": "drama4_yanxigonglue17.mp4",
+    "title": "延禧攻略片段2",
+    "source_url": "",
+    "license_note": "仅供课设演示",
+    "duration_sec": 1200.0,
+    "local_path": "data/raw_videos/drama4_yanxigonglue17.mp4",
+    "transcript_path": "data/meta/srt/drama4_yanxigonglue17.srt",
+    "cloud_url": "",
+    "cloud_password": ""
+  }
+]

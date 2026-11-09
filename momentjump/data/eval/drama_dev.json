@@ -1,0 +1,74 @@
+[
+  {
+    "query_id": "drama_dev_001",
+    "query": "魏璎珞向皇后解释什么是真正的善良",
+    "video_id": "drama1_yanxigonglue10",
+    "gold_start": 443.52,
+    "gold_end": 472.15,
+    "query_type": "plot",
+    "notes": ""
+  },
+  {
+    "query_id": "drama_dev_002",
+    "query": "魏璎珞惹怒皇上，被罚去慎刑司领板子",
+    "video_id": "drama1_yanxigonglue10",
+    "gold_start": 953.76,
+    "gold_end": 960.2,
+    "query_type": "paraphrase",
+    "notes": ""
+  },
+  {
+    "query_id": "drama_dev_003",
+    "query": "朱迪小时候在舞台剧上说自己想当警察，被父母劝退",
+    "video_id": "drama2_zootopia",
+    "gold_start": 156.2,
+    "gold_end": 165.0,
+    "query_type": "plot",
+    "notes": ""
+  },
+  {
+    "query_id": "drama_dev_004",
+    "query": "朱迪被狐狸吉丁推倒，并被嘲笑只是一只该死的只会种萝卜的兔子",
+    "video_id": "drama2_zootopia",
+    "gold_start": 317.1,
+    "gold_end": 323.2,
+    "query_type": "hard",
+    "notes": ""
+  },
+  {
+    "query_id": "drama_dev_005",
+    "query": "米格在广场上给路人擦鞋时，偷偷向路人介绍自己的偶像",
+    "video_id": "drama3_COCO",
+    "gold_start": 296.5,
+    "gold_end": 362.2,
+    "query_type": "plot",
+    "notes": ""
+  },
+  {
+    "query_id": "drama_dev_006",
+    "query": "米格为了参加音乐比赛，跑去墓园偷吉他",
+    "video_id": "drama3_COCO",
+    "gold_start": 1306.8,
+    "gold_end": 1335.3,
+    "query_type": "paraphrase",
+    "notes": ""
+  },
+  {
+    "query_id": "drama_dev_007",
+    "query": "高贵妃深夜怀疑纯妃忠心耿耿跟着皇后有什么企图",
+    "video_id": "drama4_yanxigonglue17",
+    "gold_start": 132.24,
+    "gold_end": 137.72,
+    "query_type": "hard",
+    "notes": ""
+  },
+  {
+    "query_id": "drama_dev_008",
+    "query": "璎珞和明玉打闹逗皇后开心，被皇上撞见并训斥",
+    "video_id": "drama4_yanxigonglue17",
+    "gold_start": 498.6,
+    "gold_end": 500.16,
+    "query_type": "plot",
+    "notes": ""
+  }
+]

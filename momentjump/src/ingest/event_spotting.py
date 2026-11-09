@@ -23,6 +23,41 @@ _POINT_END_WORDS = ["得分", "拿分", "得一分", "赢下这一分", "收吊"
 _SCORE_RE = re.compile(r"(\d{1,2})\s*[:：比]\s*(\d{1,2})")
 _LEAD_RE = re.compile(r"(\d{1,2})\s*比\s*(\d{1,2})")
 
+# 中文数字比分（Whisper 常把"11比7"转成"十一比七"）：一~九十九
+_CN_DIGIT = {"零": 0, "一": 1, "二": 2, "三": 3, "四": 4, "五": 5, "六": 6,
+             "七": 7, "八": 8, "九": 9}
+_CN_NUM = "[零一二三四五六七八九十]{1,3}"
+_CN_SCORE_RE = re.compile(rf"({_CN_NUM})\s*比\s*({_CN_NUM})")
+# 平局：数字或中文数字 + "平"（如"14平""十九平"）
+_TIE_RE = re.compile(rf"(\d{{1,2}}|{_CN_NUM})\s*平")
+
+
+def _cn_to_int(s: str) -> int:
+    """中文数字 → 整数（支持 零~九十九）。"""
+    if s.isdigit():
+        return int(s)
+    if s == "十":
+        return 10
+    if "十" in s:
+        tens, _, ones = s.partition("十")
+        t = _CN_DIGIT.get(tens, 1) if tens else 1
+        o = _CN_DIGIT.get(ones, 0) if ones else 0
+        return t * 10 + o
+    return _CN_DIGIT.get(s, 0)
+
+
+def extract_scores(text: str) -> List[Tuple[int, int]]:
+    """从解说文本提取比分，返回 [(a, b), ...]（含阿拉伯/中文数字 + 平局）。"""
+    scores: List[Tuple[int, int]] = []
+    for m in _SCORE_RE.finditer(text):
+        scores.append((int(m.group(1)), int(m.group(2))))
+    for m in _CN_SCORE_RE.finditer(text):
+        scores.append((_cn_to_int(m.group(1)), _cn_to_int(m.group(2))))
+    for m in _TIE_RE.finditer(text):
+        n = _cn_to_int(m.group(1))
+        scores.append((n, n))  # 平局 → n:n
+    return scores
+
 
 def infer_winner_side(
     text: str, side_a_terms: List[str], side_b_terms: List[str]
@@ -46,10 +81,10 @@ def rule_based_spot(
     events: List[Dict] = []
     for i, t in enumerate(items):
         text = t.text
-        # 比分变化
-        m = _SCORE_RE.search(text) or _LEAD_RE.search(text)
-        if m:
-            a, b = int(m.group(1)), int(m.group(2))
+        # 比分变化（阿拉伯/中文数字 + 平局，以裁判/解说报分为主）
+        scores = extract_scores(text)
+        if scores:
+            a, b = scores[0]
             events.append({
                 "event_type": "score_change",
                 "start_sec": t.start,
